@@ -1,0 +1,42 @@
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.contact-nav-bar {
+  /* position: fixed; */
+
+  color: black;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  height: 30px;
+  justify-content: end;
+  padding-right: 30px;
+  background: #04195f;
+  color: white;
+  
+}
+.nav-bar-logo-img-section {
+ 
+  display: flex;
+  width: 100px;
+  gap: 10px;
+  width: 600px;
+}
+.contact-nav-bar-item {
+  display: flex;
+  gap: 10px;
+}
