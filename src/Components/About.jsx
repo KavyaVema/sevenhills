@@ -10,6 +10,8 @@ const About = () => {
     }
   }
   console.log("git testing")
+  console.log("2 git testing")
+
   return (
     <>
       <div className="AboutPage">
