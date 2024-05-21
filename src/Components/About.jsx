@@ -9,9 +9,7 @@ const About = () => {
       ref.current.click()
     }
   }
-  console.log("git testing")
-  console.log("2 git testing")
-
+  
   return (
     <>
       <div className="AboutPage">
