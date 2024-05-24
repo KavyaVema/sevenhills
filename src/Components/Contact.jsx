@@ -72,8 +72,8 @@ const Contact = () => {
         </a>
       </form>)} */}
       <div className="address-card"><div className="address-card-section"><h5 style={{fontSize:"25px",color:"#04195f"}}>Address</h5>
-      <div style={{fontSize:"20px",color:"#04195f"}}>Seven Hills Enterprises</div>
-      <div style={{fontSize:"15px",display:"grid",gap:"3px"}}>2-3-350/14, REVENUE WARD NO 2, K V LAYOUT Area, Tirupati East Sub Post Office, LIC office, Tirupati, Andhra Pradesh 517501<div>Ph: 9848647123</div><div>Email: info@sevenhillsenterprises.in</div></div></div></div>
+      <div style={{fontSize:"20px",color:"#04195f"}}>M/s, SEVENHILLS ENTERPRISES</div>
+      <div style={{fontSize:"15px",display:"grid",gap:"3px"}}>2-3-350/14, REVENUE WARD NO 2, K V LAYOUT AREA, Tirupati East Sub Post Office, LIC OFFICE, Tirupati, Tirupati,Andhra Pradesh, 517501<div>Ph: 9848647123</div><div>Email: info@sevenhillsenterprises.in</div></div></div></div>
         {/* <div style={{height:"10px"}}></div> */}
         
 
