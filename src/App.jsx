@@ -40,7 +40,7 @@ function App() {
       ) : (
         <>
         <div className="contact-nav-bar">
-        <div className="contact-nav-bar-item"><IoCallSharp />8897993969 </div>
+        <div className="contact-nav-bar-item"><IoCallSharp />9848647123 </div>
         <div className="contact-nav-bar-item"><FaEnvelope />info@sevenhillsenterprises.in</div></div>
           <Nav />
           <MoveToTop />
