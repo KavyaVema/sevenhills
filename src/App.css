@@ -16,8 +16,8 @@
   transition: opacity 0.5s ease-in-out;
 }
 .contact-nav-bar {
-  /* position: fixed; */
-
+  position: fixed !important;
+  top: 0;
   color: black;
   display: flex;
   gap: 20px;
@@ -27,6 +27,8 @@
   padding-right: 30px;
   background: #04195f;
   color: white;
+  width: 100%;
+  z-index: 2;
   
 }
 .nav-bar-logo-img-section {
@@ -40,3 +42,22 @@
   display: flex;
   gap: 10px;
 }
+.address-card  {
+margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px 10px 20px 10px;
+    color: black;
+    background: white;
+    border: 1px solid white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .address-card-section {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }

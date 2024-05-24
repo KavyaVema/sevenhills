@@ -16,7 +16,7 @@ const Footer = () => {
           <FaInstagram />
         </a> */}
 
-        <a href="mailTo:sevenhillsenterprisestpt@gmail.com." target="_blank">
+        <a href="mailTo:info@sevenhillsenterprises.in" target="_blank">
           <GrMail />
         </a>
       </div>

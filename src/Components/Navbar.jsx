@@ -6,7 +6,7 @@ import { BsPerson, BsCodeSlash } from "react-icons/bs";
 import { CgPhone } from "react-icons/cg";
 import sevenHillsLogo from "../images/sevenHillsLogo.png"
 
-const Nav = () => {
+const Nav = ({setHideFooter}) => {
   const [navbarblur, setnavbarblur] = useState(false);
 
   function scrollHandler() {
@@ -72,7 +72,7 @@ const Nav = () => {
             <BsCodeSlash /> Services
           </Link>
         </li>
-        <li onClick={hideMenu}>
+        <li onClick={hideMenu} setHideFooter="false">
           <Link to="/Contact">
             <CgPhone />
             Contact

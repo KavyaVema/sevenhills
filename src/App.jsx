@@ -14,6 +14,7 @@ import { IoCallSharp } from "react-icons/io5";
 import { FaEnvelope } from "react-icons/fa";
 function App() {
   const [loading, setLoading] = useState(true);
+  const [hideFooter,setHideFooter]=useState(false);
   const location = useLocation()
 
   useEffect(() => {
@@ -39,8 +40,8 @@ function App() {
       ) : (
         <>
         <div className="contact-nav-bar">
-        <div className="contact-nav-bar-item"><IoCallSharp />8897293968 </div>
-        <div className="contact-nav-bar-item"><FaEnvelope />sevenhillsenterprisestpt@gmail.com </div></div>
+        <div className="contact-nav-bar-item"><IoCallSharp />8897993969 </div>
+        <div className="contact-nav-bar-item"><FaEnvelope />info@sevenhillsenterprises.in</div></div>
           <Nav />
           <MoveToTop />
 
