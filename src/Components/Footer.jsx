@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       
-      <div style={{fontSize:"13px"}}>Address: M/s, SEVENHILLS ENTERPRISES 2-3-350/14, REVENUE WARD NO 2, K V LAYOUT AREA, Tirupati East Sub Post Office, LIC OFFICE, Tirupati, Tirupati,Andhra Pradesh, 517501</div>
+      <div style={{fontSize:"13px"}}>Address: M/s. SEVENHILLS ENTERPRISES 2-3-350/14, REVENUE WARD NO 2, K V LAYOUT AREA, Tirupati East Sub Post Office, LIC OFFICE, Tirupati, Tirupati,Andhra Pradesh, 517501</div>
       <h4 style={{fontSize:"10px"}}>Copyright &copy; {year} | All Rights Reserved.</h4>
     </footer>
   );
